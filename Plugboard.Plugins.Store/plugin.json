@@ -1,0 +1,7 @@
+{
+  "id": "store",
+  "version": "1.0.0",
+  "displayName": "Store",
+  "description": "In-memory shared state store: namespaced key -> JSON value CRUD, shallow patch, and server-side subset selection over large values.",
+  "requires": []
+}

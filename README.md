@@ -13,8 +13,12 @@ Official connector and service plugins for [Plugboard](https://github.com/PrismS
 | **Pdf** | Connector | PDF generation and table extraction |
 | **Files** | Connector | Bounded filesystem access |
 | **Sql** | Connector | SQL Server database queries |
+| **Sqlite** | Connector | Local SQLite record store with changelog + newest-wins file-share sync |
+| **Xlsx** | Connector | Read .xlsx files off disk/shares - no Excel, no COM |
 | **Ping** | Connector | Simple demo/health check connector |
 | **MeshCheck** | Service | Self-test for the plugin mesh |
+| **Store** | Service | In-memory shared state store (namespaced key/JSON CRUD + subset select) |
+| **MarketCache** | Service | In-memory TTL cache for vendor market data |
 
 ## Building
 

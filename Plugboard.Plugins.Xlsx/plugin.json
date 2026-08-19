@@ -1,0 +1,7 @@
+{
+  "id": "xlsx",
+  "version": "1.0.0",
+  "displayName": "Xlsx",
+  "description": "Read .xlsx workbooks straight off disk or a share - no Excel, no COM, no interop. Sheet listing, filtered/projected row reads, workbook cache keyed on (path, mtime, size).",
+  "requires": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sqlite",
+  "version": "1.0.0",
+  "displayName": "Sqlite",
+  "description": "Local SQLite record store with an append-only changelog and newest-wins file-share sync. Purpose-built endpoints only - deliberately no raw SQL surface.",
+  "requires": []
+}

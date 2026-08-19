@@ -1,0 +1,7 @@
+{
+  "id": "cache",
+  "version": "1.0.0",
+  "displayName": "MarketCache",
+  "description": "In-memory TTL cache for vendor market data with per-field timestamps. Volatile by design so vendor data can never leak into the durable, publishable store.",
+  "requires": []
+}
