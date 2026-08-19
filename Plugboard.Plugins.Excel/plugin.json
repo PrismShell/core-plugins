@@ -1,0 +1,7 @@
+{
+  "id": "excel",
+  "version": "1.0.0",
+  "displayName": "Excel",
+  "description": "Excel workbook/sheet/range automation via COM.",
+  "requires": ["Microsoft Excel (installed)"]
+}

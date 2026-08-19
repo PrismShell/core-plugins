@@ -1,0 +1,7 @@
+{
+  "id": "outlook",
+  "version": "1.0.0",
+  "displayName": "Outlook",
+  "description": "Outlook mail/calendar automation via COM.",
+  "requires": ["Microsoft Outlook (installed and configured)"]
+}

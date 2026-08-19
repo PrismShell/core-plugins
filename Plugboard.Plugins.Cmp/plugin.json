@@ -1,0 +1,7 @@
+{
+  "id": "cmp",
+  "version": "1.0.0",
+  "displayName": "CMP (CMBS / structured analytics)",
+  "description": "BBG CMP structured-finance analytics over its own //blp/cmp BLPAPI session: one typed endpoint per CMP request type, plus a raw JSON-envelope escape hatch.",
+  "requires": ["BBG Terminal (running and logged in)", "CMP / CMBS entitlement on the Terminal session"]
+}

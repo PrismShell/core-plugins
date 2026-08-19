@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Plugboard.Contracts\Plugboard.Contracts.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+    <!-- Shared BLPAPI core: one loaded copy + one session, provided by the host. -->
+    <ProjectReference Include="..\..\Plugboard.Blpapi\Plugboard.Blpapi.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Compile against BLPAPI types; Private=false so it is NOT copied here - the plugin
+         binds to the host's single shared copy (native blpapi3_64 is a process singleton). -->
+    <Reference Include="Bloomberglp.Blpapi">
+      <HintPath>..\..\..\..\local-gateway\bloomberg-dotnet-sdk\bin\net462\Bloomberglp.Blpapi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

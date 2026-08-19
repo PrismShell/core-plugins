@@ -1,0 +1,7 @@
+{
+  "id": "sql",
+  "version": "1.0.0",
+  "displayName": "SQL Server",
+  "description": "SQL Server access (ping/query/execute/databases/tables) via integrated or SQL auth. Runs as the logged-in user.",
+  "requires": [ "Network access to the target SQL Server" ]
+}

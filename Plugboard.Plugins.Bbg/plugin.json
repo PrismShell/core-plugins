@@ -1,0 +1,7 @@
+{
+  "id": "bbg",
+  "version": "1.0.0",
+  "displayName": "BBG",
+  "description": "Reference/market data (BDP/BDS/BDH), intraday, field/security search, and bbg:// launch via the local BLPAPI session. (CMP analytics is now its own connector.)",
+  "requires": ["BBG Terminal (running and logged in)"]
+}

@@ -1,0 +1,19 @@
+﻿# Build artifacts
+bin/
+obj/
+*/bin/
+*/obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+.DS_Store
+Thumbs.db
